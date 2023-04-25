@@ -6,26 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="login.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Login Page</title>
 </head>
 <body>
     <main>
-        <section class="login">
-            <div class="username">
-                <p class="title">Username</p>
-                <p class="text">Enter username here</p>
-                <p class="forget-user">Forgot Username?</p>
-            </div>
-            <div class="password">
-                <p class="title">Password</p>
-                <p class="text">Enter password here</p>
-                <p class="forget-pass">Forgot Password?</p>
-            </div>
-            <div class="newaccount">
+        <div class="vl">
+            <h1>Login</h1>
+            <section class="login">
+                <div class="username">
+                    <label for="uname">Username</label>
+                    <input type="text" id="uname" name="uname" placeholder="Enter Username Here" required>
+                    <a class="forget-user">Forgot Username?</a>
+                </div>
+                <div class="password">
+                    <label for="pword">Password</label>
+                    <input type="text" id="pword" name="word" placeholder="Enter Password Here" required>
+                    <a class="forget-pass">Forgot Password?</a>
+                </div>
+            </section>
+            <section class="loginbutton">
+                <button type="submit">Login</button>
+            </section>
+            <section class="newaccount">
                 <p class="needaccount">Don't have an account?</p>
-
-            </div>
-        </section>
+                <a class="createaccount">Create Account</a>
+            </section>
+        </div>
     </main>
 </body>
 </html>
