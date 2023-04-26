@@ -6,15 +6,16 @@
     --accent-color: #4200FF;
     --chat-text: #361694;
     --login-button: #7E3FBE;
-
-
-
 }
 *{
     font-size: 20px;
     font-family: 'lobster';
     color: var(--main-text);
     border: 0%;
+}
+h1{
+    color: var(--accent-color);
+    font-size: 40px;
 }
 body{
     background-color: var(--bg-main);
@@ -47,7 +48,7 @@ input[type=text]{
 }
 .vl{
     border-left: 2px solid grey;
-    padding: 10px;
+    padding: 82.5px;
     height: auto;
     position: absolute;
     left: 50%;
